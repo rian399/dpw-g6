@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form HTML</title>
+</head>
+<body>
+    <!-- label digunakan untuk memberikan penanda/text untuk input -->
+     <!-- name digunakan untuk menentukan value/name dari input -->
+      <!-- placeholder digunakan untuk memberikan hint -->
+       <!-- required digunakan untuk menentukan input harus diisi -->
+        <!-- readonly digunakan untuk menonaktifkan input/tidak bisa diubah -->    
+         <!-- value digunakan untuk menentukan value awal input -->
+          <!-- enctype digunakan untuk menentukan tipe input -->
+    <form action="https://formsubmit.co/alfazalika3@gmail.com" method="post" enctype="multipart/form-data">
+        <label for="nama_lengkap">Nama Lengkap Kamu</label> 
+        <br>
+        <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Masukkan Nama" required readonly value="Rian Alfa Zalika">
+
+        <br>
+        <br>
+
+        <label for="email">Email Kamu</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Masukkan Email">
+
+        <br>
+        <br>
+
+        <label for="Password">Password Kamu</label>
+        <br>
+        <input type="password" name="password" id="password" placeholder="Masukkan Password">
+
+        <br>
+        <br>
+
+        <label for="gender">Gender</label>
+        <br>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="age">Age</label>
+        <br>
+        <input type="number" name="age" id="age">
+
+        <br>
+        <br>
+
+        <label for="date">Date</label>
+        <br>
+        <input type="date" name="date" id="date">
+        
+        <br>
+        <br>
+        
+        <label for="date">Date</label>
+        <br>
+        <input type="datetime-local" name="date" id="date">
+
+        <br>
+        <br>
+
+        <label for="file">File</label>
+        <br>
+        <input type="file" name="file" id="file">
+
+        <br>
+        <br>
+
+        <label for="alamat">Alamat</label>
+        <br>
+        <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
